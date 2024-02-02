@@ -1,0 +1,43 @@
+{
+  "name": "desafio-backend-modulo-05-sistema-pdv-b2b-ifood-t06",
+  "version": "1.0.0",
+  "description": "Desafio do Modulo 05 da turma 06 do curso B2B da Cubos Academy",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "lint:check": "prettier --check",
+    "lint:fix": "prettier --write",
+    "start": "node ./src/index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "postgresql",
+    "backend",
+    "pdv",
+    "sql",
+    "knex",
+    "pg",
+    "nodemon",
+    "javascript",
+    "json",
+    "bcrypt",
+    "cubosacademy",
+    "ifood"
+  ],
+  "author": "Grupo-05",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "joi": "^17.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "knex": "^3.0.1",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3"
+  }
+}
